@@ -5,6 +5,7 @@ import { BucketCannedACL } from 'aws-sdk/clients/s3';
 export const CACHE_FILES = {
     config: path.join('.cache', 's3.config.json'),
     params: path.join('.cache', 's3.params.json'),
+    metadata: path.join('.cache', 's3.metadata.json'),
     routingRules: path.join('.cache', 's3.routingRules.json'),
     redirectObjects: path.join('.cache', 's3.redirectObjects.json'),
 };
